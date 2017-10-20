@@ -1,8 +1,9 @@
 = CertificateAuthority - Because it shouldn't be this damned complicated
 
 {<img src="https://travis-ci.org/fkonigy/certificate_authority.png?branch=master" alt="Build Status" />}[https://travis-ci.org/fkonigy/certificate_authority]
-{<img src="https://codeclimate.com/github/fkonigy/certificate_authority.png" alt="Code Climate" />}[https://codeclimate.com/github/fkonigy/certificate_authority]
-{<img src="https://coveralls.io/repos/fkonigy/certificate_authority/badge.png?branch=master" alt="Code Coverage" />}[https://coveralls.io/r/fkonigy/certificate_authority]
+{<img src="https://api.codeclimate.com/v1/badges/16167dea8b1c8d20c036/maintainability" />}[https://codeclimate.com/github/fkonigy/certificate_authority/maintainability]
+{<img src="https://coveralls.io/repos/github/fkonigy/certificate_authority/badge.svg?branch=master" alt="Coverage Status" />}[https://coveralls.io/github/fkonigy/certificate_authority?branch=master]
+
 
 This is meant to provide a (more) programmer-friendly implementation of all the basic functionality contained in RFC-3280 to implement your own certificate authority.
 
