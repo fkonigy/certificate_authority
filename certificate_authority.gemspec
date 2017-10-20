@@ -66,7 +66,7 @@ Gem::Specification.new do |s|
     "spec/units/units_helper.rb",
     "spec/units/working_with_openssl_spec.rb"
   ]
-  s.homepage = "https://github.com/cchandler/certificate_authority"
+  s.homepage = "https://github.com/fkonigy/certificate_authority"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
   s.summary = "Ruby gem for managing the core functions outlined in RFC-3280 for PKI"
@@ -86,4 +86,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, [">= 1.5.2"])
   end
 end
-

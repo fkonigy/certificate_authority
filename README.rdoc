@@ -1,8 +1,8 @@
 = CertificateAuthority - Because it shouldn't be this damned complicated
 
-{<img src="https://travis-ci.org/cchandler/certificate_authority.png?branch=master" alt="Build Status" />}[https://travis-ci.org/cchandler/certificate_authority]
-{<img src="https://codeclimate.com/github/cchandler/certificate_authority.png" alt="Code Climate" />}[https://codeclimate.com/github/cchandler/certificate_authority]
-{<img src="https://coveralls.io/repos/cchandler/certificate_authority/badge.png?branch=master" alt="Code Coverage" />}[https://coveralls.io/r/cchandler/certificate_authority]
+{<img src="https://travis-ci.org/fkonigy/certificate_authority.png?branch=master" alt="Build Status" />}[https://travis-ci.org/fkonigy/certificate_authority]
+{<img src="https://codeclimate.com/github/fkonigy/certificate_authority.png" alt="Code Climate" />}[https://codeclimate.com/github/fkonigy/certificate_authority]
+{<img src="https://coveralls.io/repos/fkonigy/certificate_authority/badge.png?branch=master" alt="Code Coverage" />}[https://coveralls.io/r/fkonigy/certificate_authority]
 
 This is meant to provide a (more) programmer-friendly implementation of all the basic functionality contained in RFC-3280 to implement your own certificate authority.
 
@@ -100,9 +100,9 @@ Here's an example of a full signing profile for most of the common V3 extensions
        "extendedKeyUsage" => {"usage" => [ "serverAuth","clientAuth"]},
        "subjectAltName" => {"uris" => ["http://subdomains.youFillThisOut/"]},
        "certificatePolicies" => {
-       "policy_identifier" => "1.3.5.8", "cps_uris" => ["http://my.host.name/", "http://my.your.name/"], 
+       "policy_identifier" => "1.3.5.8", "cps_uris" => ["http://my.host.name/", "http://my.your.name/"],
          "user_notice" => {
-          "explicit_text" => "Explicit Text Here", 
+          "explicit_text" => "Explicit Text Here",
          "organization" => "Organization name",
          "notice_numbers" => "1,2,3,4"
          }
@@ -327,6 +327,6 @@ Written by Chris Chandler(http://chrischandler.name)
 
 Released under the MIT License: http://www.opensource.org/licenses/mit-license.php
 
-Main page: http://github.com/cchandler/certificate_authority
+Main page: http://github.com/fkonigy/certificate_authority
 
-Issue tracking: https://github.com/cchandler/certificate_authority/issues
+Issue tracking: https://github.com/fkonigy/certificate_authority/issues
